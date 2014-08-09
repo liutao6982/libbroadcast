@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E87195B3-6243-4B9F-8B5D-FBF663F78BB2}") = "Libbroadcast", "Libbroadcast\Libbroadcast.vcxproj", "{FEE860F8-597B-451E-8FEA-DC8039E1B77E}"
+EndProject
+Project("{E87195B3-6243-4B9F-8B5D-FBF663F78BB2}") = "LibbroadcastTests", "LibbroadcastTests\LibbroadcastTests.vcxproj", "{D4C4DE2D-55C4-412D-80C9-C98157BBC355}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FEE860F8-597B-451E-8FEA-DC8039E1B77E} = {FEE860F8-597B-451E-8FEA-DC8039E1B77E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE860F8-597B-451E-8FEA-DC8039E1B77E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEE860F8-597B-451E-8FEA-DC8039E1B77E}.Debug|Win32.Build.0 = Debug|Win32
+		{FEE860F8-597B-451E-8FEA-DC8039E1B77E}.Release|Win32.ActiveCfg = Release|Win32
+		{FEE860F8-597B-451E-8FEA-DC8039E1B77E}.Release|Win32.Build.0 = Release|Win32
+		{D4C4DE2D-55C4-412D-80C9-C98157BBC355}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4C4DE2D-55C4-412D-80C9-C98157BBC355}.Debug|Win32.Build.0 = Debug|Win32
+		{D4C4DE2D-55C4-412D-80C9-C98157BBC355}.Release|Win32.ActiveCfg = Release|Win32
+		{D4C4DE2D-55C4-412D-80C9-C98157BBC355}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
