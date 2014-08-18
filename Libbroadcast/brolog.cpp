@@ -1,7 +1,7 @@
 //*****************************************************************************
 // Libbroadcast: A library for broadcasting video over RTMP
 //
-// Copyright (C) 2014 Lucas Murray <lmurray@undefinedfire.com>
+// Copyright (C) 2014 Lucas Murray <lucas@polyflare.com>
 // All rights reserved.
 //
 // This program is free software; you can redistribute it and/or modify it
